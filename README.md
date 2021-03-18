@@ -1,1 +1,27 @@
 # Az-Blob-Attacker
+
+Azure storage attacker
+
+This tool will help you to perform CRUD operations if you have storage account name and key.
+
+![logo](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/logo.png)
+
+## Installation Guide
+
+    git clone https://github.com/VitthalS/Az-Blob-Attacker.git
+    cd Az-Blob-Attacker
+    pip install -r requirements.txt
+    python Az-Blob-Attacker.py
+
+## Usage Guide
+
+- Run python Az-Blob-Attacker.py
+- Enter Storage Account Name
+- Enter Storage Account Key
+- Enter the number to perform operations listed as below :
+
+        1. Get Container Names
+        2. Get Blob Names
+        3. Download all Blobs
+        4. Upload blob
+- Enter the container name if required
