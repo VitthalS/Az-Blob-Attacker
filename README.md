@@ -27,23 +27,23 @@ This tool will help you to perform following operations if you have storage acco
 
 2. To get the container names associated to storage account enter number 1.
 
-    ![az-blob-attacker](Usage guide img/az-blob-attacker.png)
+    ![az-blob-attacker](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/Usage%20guide%20img/az-blob-attacker.png)
 
 3. To get the blob names associated to storage account & container enter number 2.
 
-    ![az-blob-attacker1](Usage guide img/az-blob-attacker1.png)
+    ![az-blob-attacker1](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/Usage%20guide%20img/az-blob-attacker1.png)
 
 4. To Download all the blobs associated to storage account & container enter number 3.
 
-    ![az-blob-attacker2](Usage guide img/az-blob-attacker2.png)
+    ![az-blob-attacker2](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/Usage%20guide%20img/az-blob-attacker2.png)
 
 5. To upload a blob to container enter number 4 and specify the path to file.
 
-    ![az-blob-attacker3](Usage guide img/az-blob-attacker3.png)
+    ![az-blob-attacker3](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/Usage%20guide%20img/az-blob-attacker3.png)
 
 6. To delete a blob from specified container enter number 5
 
-    ![deleteblob](Usage guide img/deleteblob.png)
+    ![deleteblob](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/Usage%20guide%20img/deleteblob.png)
 
 ## Contributing
 
