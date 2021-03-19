@@ -2,7 +2,13 @@
 
 Azure storage attacker
 
-This tool will help you to perform CRUD operations if you have storage account name and key.
+This tool will help you to perform following operations if you have storage account name and key.
+
+- Get Container Names
+- Get Blob names
+- Download all Blobs
+- Upload a Blob
+- Delete a Blob
 
 ![logo](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/logo.png)
 
@@ -24,4 +30,5 @@ This tool will help you to perform CRUD operations if you have storage account n
         2. Get Blob Names
         3. Download all Blobs
         4. Upload blob
+        5. Delete blob
 - Enter the container name if required

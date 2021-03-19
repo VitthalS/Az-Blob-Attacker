@@ -28,6 +28,7 @@ print ('''
 	2. Get Blob Names
 	3. Download all Blobs
 	4. Upload blob
+	5. Delete blob
 
 	''')
 
@@ -107,6 +108,20 @@ def run_blobupload():
         print(e)
 
 
+def delete_blob():
+	try :
+		block_blob_service = BlockBlobService(account_name=name, account_key=key)
+		container_name =input ("Enter Container Name to List the blobs: ")
+		generator = block_blob_service.list_blobs(container_name)
+		for blob in generator:
+			print(" Blob name: ",blob.name)
+		blob_name = input("Enter blob name you want to delete: ")
+		print("Deleting blob: ",blob_name)
+		block_blob_service.delete_blob(container_name,blob_name,snapshot=None)
+		print("Successfully deleted : ",blob_name)
+	except Exception as e :
+		print(e)
+
 # Main method.
 if __name__ == '__main__':
 
@@ -119,6 +134,8 @@ if __name__ == '__main__':
 		download_blobs()
 	elif number == '4' :
 		run_blobupload()
+	elif number == '5' :
+		delete_blob()
 	else :
 		print ('Enter valid number')
 
