@@ -1,4 +1,5 @@
 # Az-Blob-Attacker
+![logo](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/logo.png)
 
 Azure storage attacker
 
@@ -10,7 +11,6 @@ This tool will help you to perform following operations if you have storage acco
 - Upload a Blob
 - Delete a Blob
 
-![logo](https://raw.githubusercontent.com/VitthalS/Az-Blob-Attacker/main/logo.png)
 
 ## Installation Guide
 
