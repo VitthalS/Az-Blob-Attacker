@@ -12,14 +12,14 @@ This tool will help you to perform following operations if you have storage acco
 - Delete a Blob
 
 
-## Installation Guide
+## Install
 
     git clone https://github.com/VitthalS/Az-Blob-Attacker.git
     cd Az-Blob-Attacker
     pip install -r requirements.txt
     python Az-Blob-Attacker.py
 
-## Usage Guide
+## Usage
 
 - Run python Az-Blob-Attacker.py
 - Enter Storage Account Name
@@ -32,3 +32,12 @@ This tool will help you to perform following operations if you have storage acco
         4. Upload blob
         5. Delete blob
 - Enter the container name if required
+
+
+## Contributing
+
+1. Fork it, baby!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request.
